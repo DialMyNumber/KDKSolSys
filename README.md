@@ -22,7 +22,7 @@ Assimp의 라이브러리 생성 및 관리를 위한 CMAKE 이용 <https://cmak
 1. WASD를 이용하여 카메라 이동
 2. 방향키 UP : 공전 멈추기 | 방향키 DOWN :  공전 다시 시작
 3. 방향키 LEFT : 자전 속도 느리게 | RIGHT : 자전 속도 빠르게
-
+4. ESC : 종료
 
 ###scroll_callback 메소드
 
