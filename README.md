@@ -29,6 +29,7 @@ Assimp의 라이브러리 생성 및 관리를 위한 CMAKE 이용 <https://cmak
 <img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example1.png"></img>
 
 수많은 소행성을 각각 렌더링 하면 프레임 드랍이 일어날 수 있음
+
 그렇기 때문에 소행성 모델링 하나를 렌더링 하여 Instancing 기법을 사용함과 동시에 약간의 변위를 적용하여 최소한의 성능으로 자연스러운 소행성대 구현
 --- -
 <img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example3.png"></img>
@@ -38,4 +39,5 @@ Assimp의 라이브러리 생성 및 관리를 위한 CMAKE 이용 <https://cmak
 <img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example2.png"></img>
 
 지구의 경우 태양 빛을 받지 않는 뒷면이라 하더라도 도시의 불빛이라는 독특한 특징을 가지고 있음
+
 그렇기 때문에 지구 모델링을 반으로 나눠 태양을 향하는 앞면의 모델링과 뒷면 모델링을 각각 적용하여 렌더링 수행
