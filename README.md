@@ -26,6 +26,8 @@ Assimp의 라이브러리 생성 및 관리를 위한 CMAKE 이용 <https://cmak
 마우스 휠 업/다운 : 카메라 줌 인/아웃
 
 ## 스크린샷
-|초기 화면 : light == 0|<img src="https://github.com/2023-SMU-Capstone-design/gles3jni/assets/87518434/3b344e18-2a58-4cca-a3db-d1ed61e3485c"></img>|
-|다수 light 적용 화면|<img src="https://github.com/2023-SMU-Capstone-design/gles3jni/assets/87518434/b0153a1b-81c8-40b6-bee7-a7e7e89f5509"></img>|
-|Unity 비교|<img src="https://github.com/2023-SMU-Capstone-design/gles3jni/assets/87518434/a5db96bd-eb39-40b4-802b-9205975f1914"></img>|
+<img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example1.png"></img>
+
+<img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example2.png"></img>
+
+<img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example3.png"></img>
