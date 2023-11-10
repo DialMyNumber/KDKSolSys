@@ -28,16 +28,22 @@ Assimp의 라이브러리 생성 및 관리를 위한 CMAKE 이용 <https://cmak
 
 마우스 휠 업/다운 : 카메라 줌 인/아웃
 
-## 스크린샷
+## 스크린샷 및 적용 기법
 <img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example1.png"></img>
 
 수많은 소행성을 각각 렌더링 하면 프레임 드랍이 일어날 수 있음
 
 그렇기 때문에 소행성 모델링 하나를 렌더링 하여 Instancing 기법을 사용함과 동시에 약간의 변위를 적용하여 최소한의 성능으로 자연스러운 소행성대 구현
+
+& SKYBOX를 이용한 우주 이미지 배경 적용
 --- -
 <img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example3.png"></img>
 
 태양의 좌표에 Directional Light 적용하여 태양을 보고 있는 방향에선 밝게, 그렇지 않는 쪽은 어둡게 처리
+
+다양한 Shader를 이용하여 각 행성의 모델링의 Material에 따라 간접광/반사광 등을 적용
+
+행성의 자전주기, 공전주기, 자전축, 공전궤도 등을 고려하여 적절하게 배치
 --- -
 <img src="https://github.com/DialMyNumber/KDKSolSys/blob/master/asteroid/resources/screenshots/example2.png"></img>
 
